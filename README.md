@@ -8,9 +8,9 @@ Hops or Not is a simple beer rating app. It is full-stack JavaScript: Express an
 
 In order to run this app, you will need the following software installed:
 
-[ImageMagick](http://www.imagemagick.org/)
-[Node.js](http://nodejs.org/)
-[MongoDB](http://www.mongodb.org/)
+* [ImageMagick](http://www.imagemagick.org/)
+* [Node.js](http://nodejs.org/)
+* [MongoDB](http://www.mongodb.org/)
 
 ## Installation
 
