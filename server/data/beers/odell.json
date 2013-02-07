@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Easy Street Wheat",
+    "description": "<p>Light and refreshing, Easy Street Wheat is an unfiltered American-style wheat beer. Leaving in the yeast gives the beer a nice, smooth finish and a slightly citrusy flavor. Easy Street Wheat gets its name by brewers “taking it easy” and not filtering the beer. However, for ultimate enjoyment, we encourage you to work just a little harder in pouring it: pour 2/3 of the beer into a glass, swirl what's left to stir up the yeast, then pour the rest and enjoy.</p>",
+    "abv": 4.6,
+    "ibu": 15,
+    "style": "Wheat"
+  },
+  {
+    "name": "Levity Amber Ale",
+    "description": "<p>Levity is our lighter take on the amber ale. Munich and honey malts give it a full-bodied flavor and a happy-go-lucky personality. Then we let the finishing hops shine, for a beer that's crisp instead of bitter. Levity was named by our brewers partly for its light color – and partly for the way it just refuses to take itself too seriously. Hey, we could all use a little levity once in a while.</p>",
+    "abv": 5.1,
+    "ibu": 24,
+    "style": "Amber Ale"
+  },
+  {
+    "name": "5 Barrel Pale Ale",
+    "description": "<p>The distinctive hop character of our 5 Barrel Pale Ale is due to the extraction of essential oils from select hops. We treat 5 Barrel Pale Ale to an infusion of fresh whole hop flowers in the Hop Back and the Fermentor, as well as four hop additions during the kettle boil. We like how this gives the beer a fresh, lively flavor and aroma.</p>",
+    "abv": 5.2,
+    "ibu": 36,
+    "style": "Pale Ale"
+  },
+  {
+    "name": "90 Shilling Ale",
+    "description": "<p>We introduced 90 Shilling, our flagship beer, at our opening party in 1989. For a while, we'd been wondering what would happen if we lightened up the traditional Scottish ale? The result is an irresistibly smooth and delicious medium-bodied amber ale. The name 90 Shilling comes from the Scottish method of taxing beer. Only the highest quality beers were taxed 90 Shillings. A shilling was a British coin used from 1549 to 1982. We think you'll find this original ale brilliantly refreshing, and worth every shilling.</p>",
+    "abv": 5.3,
+    "ibu": 27,
+    "style": "Amber Ale"
+  },
+  {
+    "name": "IPA",
+    "description": "<p>We took the traditional IPA, originally shipped from England to India in the 1700′s, and made it bolder and more flavorful – American Style. We've added new varieties of highly aromatic American hops to create a distinctive bitterness profile and an incredible hop character.</p>",
+    "abv": 7.0,
+    "ibu": 60,
+    "style": "IPA"
+  },
+  {
+    "name": "Cutthroat Porter",
+    "description": "<p>Not quite a stout but definitely no lightweight, Cutthroat Porter is smooth and robust. Inspired by the classic London porters, we use dark roasted malts to create a deep, rich color and flavor that hint at chocolate and coffee. We named it Cutthroat Porter as our tribute to the Colorado state fish – with its own rich heritage and unmistakable dark coloring. And while we're big fans of small batches, here's to the currently threatened Cutthroat population reaching mass quantities.</p>",
+    "abv": 5.1,
+    "ibu": 43,
+    "style": "Porter"
+  }
+]

@@ -1,0 +1,6 @@
+**.orig
+**.save
+*.log
+.DS_Store
+node_modules
+public/uploads

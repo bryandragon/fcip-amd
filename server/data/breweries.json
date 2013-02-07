@@ -1,0 +1,111 @@
+[
+	{
+		"name":"The Fort Collins Brewery",
+		"slug":"fort-collins-brewery",
+		"address":{
+			"street1":"1020 E. Lincoln Ave.",
+			"city":"Fort Collins",
+			"state":"CO",
+			"zip":"80524"
+		},
+		"phone":"970-472-1499",
+		"website":"www.fortcollinsbrewery.com"
+	},
+	{
+		"name":"Odell Brewing Co.",
+		"slug":"odell",
+		"address":{
+			"street1":"800 East Lincoln Ave",
+			"city":"Fort Collins",
+			"state":"CO",
+			"zip":"80524"
+		},
+		"phone":"970-498-9070",
+		"website":"odellbrewing.com"
+	},
+	{
+		"name":"New Belgium Brewing Company",
+		"slug":"new-belgium",
+		"address":{
+			"street1":"500 Linden St.",
+			"city":"Fort Collins",
+			"state":"CO",
+			"zip":"80524"
+		},
+		"phone":"1-888-622-4044",
+		"website":"www.newbelgium.com"
+	},
+	{
+		"name":"Funkwerks",
+		"slug":"funkwerks",
+		"address":{
+			"street1":"1900 E Lincoln Ave",
+			"street2":"Unit B",
+			"city":"Fort Collins",
+			"state":"CO",
+			"zip":"80524"
+		},
+		"phone":"970-482-3865",
+		"website":"www.funkwerks.com"
+	},
+	{
+		"name":"Equinox Brewing Company",
+		"slug":"equinox",
+		"address":{
+			"street1":"133 Remington St.",
+			"city":"Fort Collins",
+			"state":"CO",
+			"zip":"80524"
+		},
+		"phone":"970-484-1368",
+		"website":"www.equinoxbrewing.com"
+	},
+	{
+		"name":"Pateros Creek Brewing Company",
+		"slug":"pateros-creek",
+		"address":{
+			"street1":"242 N. College Ave.",
+			"city":"Fort Collins",
+			"state":"CO",
+			"zip":"80524"
+		},
+		"phone":"970-484-7222",
+		"website":"www.pateroscreekbrewing.com"
+	},
+	{
+		"name":"Coopersmith's Pub & Brewing",
+		"slug":"coopersmiths",
+		"address":{
+			"street1":"5 Old Town Square",
+			"city":"Fort Collins",
+			"state":"CO",
+			"zip":"80524"
+		},
+		"phone":"970-498-0483",
+		"website":"www.coopersmithspub.com"
+	},
+	{
+		"name":"Black Bottle Brewery",
+		"slug":"black-bottle-brewery",
+		"address":{
+			"street1":"1605 S. College Ave.",
+			"city":"Fort Collins",
+			"state":"CO",
+			"zip":"80525"
+		},
+		"phone":"970-493-2337",
+		"website":"blackbottlebrewery.com"
+	},
+	{
+		"name":"C.B. & Potts Restaurant & Brewery",
+		"slug":"cb-potts",
+		"address":{
+			"street1":"1415 W. Elizabeth",
+			"city":"Fort Collins",
+			"state":"CO",
+			"zip":"80521"
+		},
+		"phone":"970-221-1139",
+		"website":"www.cbpotts.com"
+	}
+]

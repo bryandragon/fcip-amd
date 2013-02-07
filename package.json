@@ -1,0 +1,24 @@
+{
+  "name": "fcip",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server/app.js"
+  },
+  "dependencies": {
+    "express": "~3.0.5",
+    "mongoose": "~3.5.3",
+    "mongoose-attachments-localfs": "git://github.com/firebaseco/mongoose-attachments-localfs.git",
+    "mongoose-attachments": "git://github.com/firebaseco/mongoose-attachments.git",
+    "passport": "~0.1.15",
+    "passport-github": "~0.1.3",
+    "ejs": "~0.8.3",
+    "async": "~0.1.22",
+    "underscore": "~1.4.3",
+    "underscore.string": "~2.3.1",
+    "mocha": "~1.8.1",
+    "chai": "~1.4.2",
+    "requirejs": "~2.1.4",
+    "should": "~1.2.1"
+  }
+}
