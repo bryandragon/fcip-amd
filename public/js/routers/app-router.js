@@ -1,9 +1,5 @@
-define(function (require) {
-	var Backbone = require('backbone'),
-			AppView = require('views/app-view'),
-			AppRouter;
-
-	AppRouter = Backbone.Router.extend({
+(function (root) {
+	root.AppRouter = Backbone.Router.extend({
 		routes: {
 			'': 'rate',
 			'rate': 'rate',
@@ -40,6 +36,4 @@ define(function (require) {
 			this.appView.setState(null);
 		}
 	});
-
-	return AppRouter;
-});
+})(this);

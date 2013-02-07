@@ -1,21 +1,14 @@
-define(function (require) {
-	var _ = require('underscore'),
-			Backbone = require('backbone'),
-			StarsView = require('views/stars-view'),
-			Beer = require('models/beer'),
-			markup = require('text!tpl/beer-thumbnail-view.html'),
-			BeerThumbnailView;
-
-	BeerThumbnailView = Backbone.View.extend({
+(function (root) {
+	root.BeerThumbnailView = Backbone.View.extend({
 		tagName: 'li',
 		className: 'span3',
-		template: _.template(markup),
 		events: {
 			'click .remove-rating': 'removeRating'
 		},
 
 		initialize: function () {
 			_.bindAll(this, 'render', 'removeRating');
+			this.template = _.template($('#beer-thumbnail-view-tpl').html());
 		},
 
 		render: function () {
@@ -39,6 +32,4 @@ define(function (require) {
 			});
 		}
 	});
-
-	return BeerThumbnailView;
-});
+})(this);

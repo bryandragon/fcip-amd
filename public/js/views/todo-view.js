@@ -1,9 +1,5 @@
-define(function (require) {
-  var BeerListView = require('views/beer-list-view'),
-      TodoBeerCollection = require('models/todo-beer-collection'),
-      TodoView;
-
-  TodoView = BeerListView.extend({
+(function (root) {
+  root.TodoView = BeerListView.extend({
     id: 'todo-view',
 
     initialize: function () {
@@ -13,6 +9,4 @@ define(function (require) {
       BeerListView.prototype.initialize.apply(this, arguments);
     }
   });
-
-  return TodoView;
-});
+})(this);

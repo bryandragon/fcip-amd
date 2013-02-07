@@ -1,9 +1,5 @@
-define(function (require) {
-  var Backbone = require('backbone'),
-      Beer = require('models/beer'),
-      SkippedBeerCollection;
-
-  SkippedBeerCollection = Backbone.Collection.extend({
+(function (root) {
+  root.SkippedBeerCollection = Backbone.Collection.extend({
     model: Beer,
     url: '/api/beers/skipped',
 
@@ -25,6 +21,4 @@ define(function (require) {
       return model;
     }
   });
-
-  return SkippedBeerCollection;
-});
+})(this);

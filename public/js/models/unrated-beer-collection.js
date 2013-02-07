@@ -1,9 +1,5 @@
-define(function (require) {
-  var Backbone = require('backbone'),
-      Beer = require('models/beer'),
-      UnratedBeerCollection;
-
-  UnratedBeerCollection = Backbone.Collection.extend({
+(function (root) {
+  root.UnratedBeerCollection = Backbone.Collection.extend({
     model: Beer,
     url: '/api/beers/unrated',
 
@@ -23,6 +19,4 @@ define(function (require) {
       return this.sync('read', this, options);
     }
   });
-
-  return UnratedBeerCollection;
-});
+})(this);

@@ -1,18 +1,12 @@
-define(function (require) {
-	var $ = require('jquery'),
-			_ = require('underscore'),
-			Backbone = require('backbone'),
-			markup = require('text!tpl/app-view.html'),
-			AppView;
-
-	AppView = Backbone.View.extend({
-		template: _.template(markup),
+(function (root) {
+	root.AppView = Backbone.View.extend({
 		events: {
 			'click a[data-state]': 'navigate'
 		},
 
 		initialize: function () {
 			_.bindAll(this, 'render', 'navigate', '_setState');
+			this.template = _.template($('#app-view-tpl').html());
 		},
 
 		render: function () {
@@ -47,32 +41,27 @@ define(function (require) {
 
 			switch (state) {
 				case AppView.State.RATE:
-					var RatingView = require('views/rating-view');
 					this.currentView = new RatingView();
 					this.$content.html(this.currentView.render().el);
 					break;
 
 				case AppView.State.RATED:
-					var RatedView = require('views/rated-view');
 					this.currentView = new RatedView();
 					this.$content.html(this.currentView.render().el);
 					break;
 
 				case AppView.State.TODO:
-					var TodoView = require('views/todo-view');
 					this.currentView = new TodoView();
 					this.$content.html(this.currentView.render().el);
 					break;
 
 				case AppView.State.SKIPPED:
-					var SkippedView = require('views/skipped-view');
 					this.currentView = new SkippedView();
 					this.$content.html(this.currentView.render().el);
 					break;
 
 				default:
-					var notFoundMarkup = require('text!tpl/404.html');
-					this.$content.html(notFoundMarkup);
+					this.$content.html($('#404-tpl').html());
 					break;
 			}
 
@@ -93,6 +82,4 @@ define(function (require) {
 			SKIPPED: 'skipped'
 		}
 	});
-
-	return AppView;
-});
+})(this);

@@ -1,9 +1,5 @@
-define(function (require) {
-  var Backbone = require('backbone'),
-      Beer = require('models/beer'),
-      RatedBeerCollection;
-
-  RatedBeerCollection = Backbone.Collection.extend({
+(function (root) {
+  root.RatedBeerCollection = Backbone.Collection.extend({
     model: Beer,
     url: '/api/beers/rated',
 
@@ -17,6 +13,4 @@ define(function (require) {
       });
     }
   });
-
-  return RatedBeerCollection;
-});
+})(this);

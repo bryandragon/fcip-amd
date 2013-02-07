@@ -1,17 +1,10 @@
-define(function (require) {
-  var _ = require('underscore'),
-      Backbone = require('backbone'),
-      BeerDetailView = require('views/beer-detail-view'),
-      markup = require('text!tpl/rating-view.html'),
-      app = require('app'),
-      RatingView;
-
-  RatingView = Backbone.View.extend({
+(function (root) {
+  root.RatingView = Backbone.View.extend({
     id: 'rating-view',
-    template: _.template(markup),
 
     initialize: function () {
       _.bindAll(this, 'render', 'next');
+      this.template = _.template($('#rating-view-tpl').html());
       this.currentView = null;
       this.render();
       this.next();
@@ -38,6 +31,4 @@ define(function (require) {
       });
     }
   });
-
-  return RatingView;
-});
+})(this);

@@ -1,9 +1,5 @@
-define(function (require) {
-  var Backbone = require('backbone'),
-      Beer = require('models/beer'),
-      TodoBeerCollection;
-
-  TodoBeerCollection = Backbone.Collection.extend({
+(function (root) {
+  root.TodoBeerCollection = Backbone.Collection.extend({
     model: Beer,
     url: '/api/beers/todo',
 
@@ -25,6 +21,4 @@ define(function (require) {
       return model;
     }
   });
-
-  return TodoBeerCollection;
-});
+})(this);

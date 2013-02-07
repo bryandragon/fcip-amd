@@ -1,9 +1,5 @@
-define(function (require) {
-  var BeerListView = require('views/beer-list-view'),
-      SkippedBeerCollection = require('models/skipped-beer-collection'),
-      SkippedView;
-
-  SkippedView = BeerListView.extend({
+(function (root) {
+  root.SkippedView = BeerListView.extend({
     id: 'skipped-view',
 
     initialize: function () {
@@ -13,6 +9,4 @@ define(function (require) {
       BeerListView.prototype.initialize.apply(this, arguments);
     }
   });
-
-  return SkippedView;
-});
+})(this);

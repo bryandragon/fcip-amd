@@ -1,9 +1,5 @@
-define(function (require) {
-  var BeerListView = require('views/beer-list-view'),
-      RatedBeerCollection = require('models/rated-beer-collection'),
-      RatedView;
-
-  RatedView = BeerListView.extend({
+(function (root) {
+  root.RatedView = BeerListView.extend({
     id: 'rated-view',
 
     initialize: function () {
@@ -13,6 +9,4 @@ define(function (require) {
       BeerListView.prototype.initialize.apply(this, arguments);
     }
   });
-
-  return RatedView;
-});
+})(this);

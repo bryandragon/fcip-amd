@@ -1,11 +1,5 @@
-define(function (require) {
-	var Backbone = require('backbone'),
-			BreweryCollection = require('models/brewery-collection'),
-			BeerCollection = require('models/beer-collection'),
-			UnratedBeerCollection = require('models/unrated-beer-collection'),
-			App, instance;
-
-	App = Backbone.Model.extend({
+(function (root) {
+	var App = Backbone.Model.extend({
 		initialize: function () {
 			var that = this;
 			this.breweries = new BreweryCollection();
@@ -30,7 +24,38 @@ define(function (require) {
 		}
 	});
 
-	instance = new App();
+	// Customize Backbone.sync for API
+	var oldSync = Backbone.sync;
+	Backbone.sync = function (method, model, options) {
+		var success, error, xhr;
+		options || (options = {});
+		success = options.success;
+		error = options.error;
+		options.success = function (res) {
+			if (res.status === 200) {
+				if (success) success(res.data);
+			}
+			else {
+				if (error) error(res.error);
+			}
+		};
+		xhr = oldSync(method, model, options);
+	};
 
-	return instance;
-});
+	root.app = new App();
+
+	$(function () {
+		// Load templates
+		$.ajax({
+			type: 'GET',
+			url: '/tpl/templates.html',
+			dataType: 'html',
+			success: function (templates) {
+				// Append templates to DOM
+				$('head').append(templates);
+				// Start the app
+				var router = new AppRouter({ container: '#app' });
+			}
+		});
+	});
+})(this);

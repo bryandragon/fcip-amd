@@ -1,9 +1,5 @@
-define(function (require) {
-	var $ = require('jquery'),
-			Backbone = require('backbone'),
-			Beer;
-
-	Beer = Backbone.Model.extend({
+(function (root) {
+	root.Beer = Backbone.Model.extend({
 		idAttribute: '_id',
 		defaults: {
 			todo: false,
@@ -91,33 +87,6 @@ define(function (require) {
 					console.log("AJAX ERROR: " + status + ", " + err.message);
 				}
 			});
-		},
-
-		upload: function (formData, options) {
-			var that = this;
-			options || (options = {});
-			$.ajax({
-				type: 'POST',
-				url: '/api/beers',
-				dataType: 'json',
-				data: formData,
-				processData: false,
-				contentType: false,
-				success: function (res) {
-					if (res.status === 200) {
-						that.set(res.data);
-						_.isFunction(options.success) && options.success(res.data);
-					}
-					else {
-						_.isFunction(options.error) && options.error(res.error);
-					}
-				},
-				error: function (xhr, status, err) {
-					_.isFunction(options.error) && options.error(status, err)
-				}
-			});
 		}
 	});
-
-	return Beer;
-});
+})(this);

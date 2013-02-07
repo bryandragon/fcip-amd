@@ -1,11 +1,5 @@
-define(function (require) {
-	var _ = require('underscore'),
-			Backbone = require('backbone'),
-			markup = require('text!tpl/stars-view.html'),
-			StarsView;
-
-	StarsView = Backbone.View.extend({
-		template: _.template(markup),
+(function (root) {
+	root.StarsView = Backbone.View.extend({
 		className: 'stars',
 		events: {
 			'click .star': 'rate',
@@ -15,6 +9,7 @@ define(function (require) {
 
 		initialize: function () {
 			_.bindAll(this, 'render', 'disable', 'rate', 'addTodo', 'skip');
+			this.template = _.template($('#stars-view-tpl').html());
 			this.model.on('change:rating', this.render);
 		},
 
@@ -45,6 +40,4 @@ define(function (require) {
 			this.$el.find('.btn').attr('disabled', 'disabled');
 		}
 	});
-
-	return StarsView;
-});
+})(this);

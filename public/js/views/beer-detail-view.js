@@ -1,20 +1,13 @@
-define(function (require) {
-	var _ = require('underscore'),
-			Backbone = require('backbone'),
-			StarsView = require('views/stars-view'),
-			Beer = require('models/beer'),
-			markup = require('text!tpl/beer-detail-view.html'),
-			BeerDetailView;
-
-	BeerDetailView = Backbone.View.extend({
+(function (root) {
+	root.BeerDetailView = Backbone.View.extend({
 		className: 'beer',
-		template: _.template(markup),
 		events: {
 			'click .next': 'close'
 		},
 
 		initialize: function () {
 			_.bindAll(this, 'render', 'close', '_showNextButton');
+			this.template = _.template($('#beer-detail-view-tpl').html());
 			this.model.on('change:rating', this._showNextButton);
 			this.model.on('change:todo change:skipped', this.close);
 		},
@@ -39,6 +32,4 @@ define(function (require) {
 			}
 		}
 	});
-
-	return BeerDetailView;
-});
+})(this);

@@ -1,16 +1,10 @@
-define(function (require) {
-  var _ = require('underscore'),
-      Backbone = require('backbone'),
-      markup = require('text!tpl/beer-list-view.html'),
-      BeerThumbnailView = require('views/beer-thumbnail-view'),
-      BeerListView;
-
-  BeerListView = Backbone.View.extend({
+(function (root) {
+  root.BeerListView = Backbone.View.extend({
     className: 'beer-list-view',
-    template: _.template(markup),
 
     initialize: function (options) {
       _.bindAll(this, 'render', 'addBeer', 'removeBeer');
+      this.template = _.template($('#beer-list-view-tpl').html());
       if (this.collection) {
         this.collection.on('reset', this.render);
         this.collection.on('add', this.addBeer);
@@ -59,6 +53,4 @@ define(function (require) {
       }
     }
   });
-
-  return BeerListView;
-});
+})(this);

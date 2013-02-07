@@ -1,0 +1,98 @@
+<script type="text/template" id="app-view-tpl">
+<div class="row">
+  <div class="span3">
+    <div class="well" style="padding:8px 0;">
+      <nav class="nav nav-list">
+        <li><a href="/" data-state="rate">Rate Beers</a></li>
+        <li><a href="/rated" data-state="rated">Beer Shelf</a></li>
+        <li><a href="/todo" data-state="todo">Todo List</a></li>
+      </nav>
+    </div>
+    <a href="/skipped" data-state="skipped" style="margin-left:15px;">Skipped Beers</a>
+  </div>
+
+  <div class="span9">
+    <div class="content"></div>
+  </div>
+</div>
+</script>
+
+<script type="text/template" id="beer-detail-view-tpl">
+<div class="row">
+  <div class="span3">
+    <img src="<%= beer.get('imageSmallURL') %>"/>
+  </div>
+  <div class="span6">
+    <h3><%= beer.get('name') %> <small><%= beer.get('breweryName') %></small></h3>
+    <p>
+      <span class="abv"><%= beer.get('abv') %>% ABV</span> &bull;
+      <span class="ibu"><%= beer.get('ibu') %> IBUs</span>
+    </p>
+    <div class="description"><%= beer.get('description') %></div>
+    <p class="stars"></p>
+    <p>
+      <button class="next btn btn-small hide">Next Beer</button>
+    </p>
+  </div>
+</div>
+</script>
+
+<script type="text/template" id="beer-list-view-tpl">
+<h3><%= title %></h3>
+<% if (beers.length) { %>
+<ul class="beers thumbnails"></ul>
+<% } else { %>
+<p><%= emptyMessage %></p>
+<% } %>
+</script>
+
+<script type="text/template" id="beer-thumbnail-view-tpl">
+<div class="beer thumbnail" data-id="<%= beer.id %>">
+  <% if (beer.get('rating')) { %>
+  <button type="button" class="close remove-rating">&times;</button>
+  <% } %>
+  <img src="<%= beer.get('imageSmallURL') %>" class="show-detail"/>
+  <h4><a href="#" class="show-detail"><%= beer.get('name') %></a></h4>
+  <p class="brewery"><%= beer.get('breweryName') %></p>
+  <p>
+    <span class="abv"><%= beer.get('abv') %>% ABV</span> &bull;
+    <span class="ibu"><%= beer.get('ibu') %> IBUs</span>
+  </p>
+  <p class="stars"></p>
+</div>
+</script>
+
+<script type="text/template" id="rating-view-tpl">
+<div></div>
+</script>
+
+<script type="text/template" id="stars-view-tpl">
+<% if (beer.get('rating')) { %>
+<div>
+  <span>My Rating: <%= beer.get('rating') %></span> &bull; 
+  <span>Average Rating: <%= beer.get('averageRating') %></span>
+</div>
+<% } else { %>
+  <% if (!beer.get('skipped')) { %>
+  <div class="btn-group">
+    <button class="btn btn-small star" data-rating="1">1</button>
+    <button class="btn btn-small star" data-rating="2">2</button>
+    <button class="btn btn-small star" data-rating="3">3</button>
+    <button class="btn btn-small star" data-rating="4">4</button>
+    <button class="btn btn-small star" data-rating="5">5</button>
+  </div>
+  <% } %>
+  <% if (!beer.get('todo')) { %>
+  <button class="add-todo btn btn-small">Add to Todo List</button>
+  <% } %>
+  <% if (!beer.get('skipped')) { %>
+  <button class="skip btn btn-small">Skip</button>
+  <% } %>
+<% } %>
+</script>
+
+<script type="text/template" id="404-tpl">
+<h2>Not Found</h2>
+<p>The page you requested was not found on this server.</p>
+<p>You should <a href="/browse">rate some beers</a>!</p>
+</script>
