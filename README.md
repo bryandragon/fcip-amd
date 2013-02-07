@@ -1,8 +1,8 @@
 # Hops or Not
 
-This is a demo app that I wrote for a presentation to the Fort Collins Internet Pros meetup in February 2013. The slides from my talk are available on SpeakerDeck: !!!TODO!!!
+This is a demo app that I wrote for a presentation to the Fort Collins Internet Pros meetup in February 2013. The slides from my talk are available on [SpeakerDeck](https://speakerdeck.com/bryandragon/javascript-restoring-the-sanity-with-amd).
 
-Hops or Not is a beer rating app. It is a full-stack JavaScript app. The back end is written on top of Node.js/Express and MongoDB/Mongoose. The front end is written with jQuery, Underscore and Backbone.
+Hops or Not is a simple beer rating app. It is full-stack JavaScript: Express and Mongoose in the back; jQuery, Underscore and Backbone up front.
 
 ## Requirements
 
