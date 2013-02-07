@@ -77,9 +77,9 @@ NODE_ENV=production node server/app.js
 * [rapotor.js](https://github.com/raptorjs/raptorjs)
 
 ### Other Popular JS frameworks
-http://spinejs.com/
-http://canjs.us/
-http://batmanjs.org/
-http://emberjs.com/
-http://angularjs.org/
-http://meteor.com/
+* http://spinejs.com/
+* http://canjs.us/
+* http://batmanjs.org/
+* http://emberjs.com/
+* http://angularjs.org/
+* http://meteor.com/
