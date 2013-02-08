@@ -1,0 +1,63 @@
+.header {
+  margin-bottom:20px;
+}
+.header .user-info {
+  line-height:40px;
+  margin-top:10px;
+}
+.footer {
+  margin-top:20px;
+}
+.splash {
+  background:url('/img/red-banshee.png') no-repeat;
+  padding-left:140px;
+  height:300px;
+}
+.splash > h3 {
+  padding-top:140px;
+}
+#app {
+  margin-bottom:40px;
+}
+.right {
+  text-align:right;
+}
+#rating-view {
+  position:relative;
+}
+
+#rating-view .loading {
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  text-align:center;
+  padding-top:40px;
+}
+
+.beers .beer {
+  min-height:410px;
+}
+
+.beer .close {
+  margin-right:5px;
+}
+
+/*.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.rating > span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+}*/

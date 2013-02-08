@@ -1,0 +1,79 @@
+[
+  {
+    "name": "1554",
+    "description": "<p>Born of a flood and centuries-old Belgian text, 1554 Enlightened Black Ale uses a lager yeast strain and dark chocolaty malts to redefine what dark beer can be. In 1997, a Fort Collins flood destroyed the original recipe our researcher, Phil Benstein, found in the library. So Phil and brewmaster, Peter Bouckaert, traveled to Belgium to retrieve this unique style lost to the ages. Their first challenge was deciphering antiquated script and outdated units of measurement, but trial and error (and many months of in-house sampling) culminated in 1554, a highly quaffable dark beer with a moderate body and mouthfeel.</p>",
+    "abv": 5.6,
+    "ibu": 21,
+    "style": "Black Ale"
+  },
+  {
+    "name": "Blue Paddle",
+    "description": "<p>Climb on in and grab a paddle. Our first foray into lagered beers, Blue Paddle Pilsener-Lager, is a Czech style pilsener with a refreshing crispness from noble hops and a rich, malty finish. ‘Blue Paddle' refers to the implement our warehouse manager's Grandma once used to lovingly paddle his a** when she caught him stealing sips of her beer. With more body than a traditional Belgian pils, Blue Paddle is reflective of Europe's finest pilseners.</p>",
+    "abv": 4.8,
+    "ibu": 33,
+    "style": "Pilsener"
+  },
+  {
+    "name": "Sunshine Wheat",
+    "description": "<p>Sunshine Wheat is a great beer for trouncing thirst. Yet, it has a depth of character that inspires a quiet moment's reflection. Sunshine Wheat swirls in the mouth with ripples of coriander and orange peel tartness, settling nicely into a tranquil sea of apple and honey tones. A filtered wheat beer, Sunshine offers a crisp, refreshing alternative to heavier-bodied heffe-weizens.</p>",
+    "abv": 4.8,
+    "ibu": 14,
+    "style": "Wheat"
+  },
+  {
+    "name": "Fat Tire",
+    "description": "<p>Named in honor of our co-founder's bike trip through Europe, Fat Tire Amber Ale marks a turning point in the young electrical engineer's home brewing. Belgian beers use a far broader palette of ingredients (fruits, spices, esoteric yeast strains) than German or English styles. Together with co-founder, Kim Jordan, they traveled around sampling their homebrews to the public. Fat Tire won fans with its sense of balance: toasty, biscuit-like malt flavors coasting in equilibrium with hoppy freshness.</p>",
+    "abv": 5.2,
+    "ibu": 18.5,
+    "style": "Amber Ale"
+  },
+  {
+    "name": "Belgo",
+    "description": "<p>When we set out to brew, we use imagination and salvation to guide us- not necessarily style guidelines. It's the Belgian way. So, Ameri-Belgo and IPA both being styles, the branding begged for New Belgium whimsy to liven things up. Hmmm Belgo sounds like a Belgian disco. Hops like to party. Next thing you know, we bust out a disco-ball and brewers started groovin. Hops started hoppin. Add in an authentic Trappist yeast strain and the place brewed into a frenzy of citrus hoppy folly.</p>",
+    "abv": 7.0,
+    "ibu": 60,
+    "style": "Belgian-Style IPA"
+  },
+  {
+    "name": "Ranger",
+    "description": "<p>Ever met a New Belgium Beer Ranger? They are our beloved folks out in the field. Spanning all 29 of our states from the Pacific to the Atlantic, our Beer Rangers do their best to protect, to pour and to partake. And explore many a beer from many a brewery, they do.</p><p>Bring out the hops! This clear amber beauty bursts at the starting gate with an abundance of hops: Cascade (citrus), Chinook (floral/citrus), and Simcoe (fruity) lead off the beer, with Cascade added again for an intense dry hop flavor. Brewed with pale and dark caramel malts that harmonize the hop flavor from start to finish, Ranger is a sessionable splendor for all you hopinistas. Thank your Beer Ranger!</p>",
+    "abv": 6.5,
+    "ibu": 70,
+    "style": "IPA"
+  },
+  {
+    "name": "Trippel",
+    "description": "<p>Our Trippel Belgian Style Ale (pronounced triple) opens with a bold blast of hops that slowly gives way to the fruity esters implied by our Belgian yeast strain. In the Belgian tradition of brewing singles, doubles and triples, Trippel is the strongest with the longest fermentation. Remarkably smooth and complex, our bottle-conditioned Trippel is spiced with a trace of coriander.</p>",
+    "abv": 7.8,
+    "ibu": 25,
+    "style": "Belgian-Style Ale"
+  },
+  {
+    "name": "Abbey",
+    "description": "<p>Winner of four World Beer Cup medals and eight medals at the Great American Beer Fest, Abbey Belgian Ale is the Mark Spitz of New Belgium's lineup - but it didn't start out that way. When Jeff and Kim first sampled the beer at the Lyons Folks Fest, reviews were mixed at best. One of founder Jeff s first two Belgian style homebrews (along with Fat Tire), Abbey is a Belgian dubbel (or double) brewed with six different malts and an authentic Belgian yeast strain. Abbey is bottle-conditioned, weighs in at 7.0% alcohol by volume, and pairs well with chocolate (or boldly served by itself) for dessert.</p>",
+    "abv": 7.0,
+    "ibu": 20,
+    "style": "Belgian-Style Ale"
+  },
+  {
+    "name": "Snow Day",
+    "description": "<p>In 2003, we had a massive 37-inch snowstorm over two days in Fort Collins. Everything shut down for a couple days – no work, no school, no cars. The only way you could get around was by ski or toboggan. When we began brewing Snow Day, we looked to this one storm for inspiration. The dark characters of the malt bill reflect the dark stormy sky at the beginning of the snowfall. But on the third day, the sun broke through and everything was glorious! The name Snow Day evoked joyful freedom. Everyone remembers waiting for the school report as little kids. When you heard your school was closed, you suddenly had all day to play in the transformed, white landscape. Well, that's the kind of emotion we put into this beer.</p><p>Pleasantly hoppy, Snow Day carries the subtle chocolate and caramel flavors of a new brewing malt known as Midnight Wheat. The Styrian Golding, Centennial and Cascade hops bring the backbone of hoppy bitterness to complement the roasty undertones. This beer is the deep garnet of a roasted walnut and presents a creamy tan head, floating artfully atop. Snow Day is bold and hoppy, drinkable and strong. It reminds you to enjoy the unexpected.</p>",
+    "abv": 6.2,
+    "ibu": 55,
+    "style": "Winter Ale"
+  },
+  {
+    "name": "Red Hoptober",
+    "description": "<p>Fall is here and with it our seasonal ale, Red Hoptober. Shining like autumn leaves in a globe glass this beer pours a dark and lovely garnet as it builds a bright, inviting head. The Eldorado hops are bold and present with a distinct, piney flavor while the caramel malt and roasted barley provide a backbone to stand Red Hoptober upright. Centennial and Cascade hops offer hints of citrus, tickling the nose, while the tongue carries a subtle, roasty tone that pairs pleasantly with the warming bite of bitter. Red Hoptober is perfect for shortening days and campfire nights.</p>",
+    "abv": 6.0,
+    "ibu": 60,
+    "style": "Red Ale"
+  },
+  {
+    "name": "Somersault",
+    "description": "<p>Somersault Ale was designed to be a fun roll around on the tongue while requiring only the minimum of palate gymnastics. In other words, this perfect summer lounge around beer is ridiculously fun and easy to drink. Even though the second Somersault goes down as effortlessly the first, our brewer Grady actually has quite a few remarkable notes at play in the nose, flavor and mouthfeel. There is an opening brace of citrus aroma from Centennial hops, a soft apricot fruitiness tucked into the flavor, a fresh snap from a sliver of ginger root, finished with oats in a long cool mash. Color is blonde with a suggestion of cloudiness. Somersaults all around!</p>",
+    "abv": 5.2,
+    "ibu": 28,
+    "style": "Ale"
+  }
+]

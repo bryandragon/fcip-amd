@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Red Banshee",
+    "description": "<p>A striking ruby hue and spicy floral aroma punctuate the pleasant sweetness of this brew. Crystal malt coalesces with the earthy flavor of Willamette hops. A hauntingly beautiful combination.</p>",
+    "abv": 5.3,
+    "ibu": 33,
+    "style": "Red Ale"
+  },
+  {
+    "name": "1900 Amber Lager",
+    "description": "<p>German Melanoiden and Munich malts blend with Willamette hops to create this incredibly refreshing and completely satisfying lager. Bright, refreshing and skillfully balanced — an all purpose après activity brew.</p>",
+    "abv": 4.7,
+    "ibu": 31,
+    "style": "Amber Lager"
+  },
+  {
+    "name": "Z Lager",
+    "description": "<p>Rauchbier dates back to the 1500's in Bamberg, Germany when malt was often dried over the flames of a beechwood fire. Slight carmel undertones and a bright amber color compliment Z's prominent smoke flavors.</p>",
+    "abv": 5.1,
+    "ibu": 30,
+    "style": "Smoked Amber Lager"
+  },
+  {
+    "name": "Major Tom's American Wheat",
+    "description": "<p>Our take on an American Classic is the refreshingly crisp Major Tom's American Wheat. This unique creation is infused with real pomegranates & filtered to a bright finish. The result is a striking straw blonde color and sweet-tart finish.</p>",
+    "abv": 5.1,
+    "ibu": 34,
+    "style": "American Wheat"
+  },
+  {
+    "name": "Chocolate Stout",
+    "description": "<p>A velvety smooth mouthfeel, satisfyingly roasty flavor and medium body make this brew positively seductive. Subtle hop bitterness rounds out the character of roasted barley and chocolate malt in this proven classic.</p>",
+    "abv": 5.3,
+    "ibu": 33,
+    "style": "Stout"
+  },
+  {
+    "name": "Kidd Black Lager",
+    "description": "<p>Schwarzbier was crafted to taste much lighter than it looks. Chocolate malt lends Kidd its color while German Tettnang hops create the minimal bitterness of this brew. We've added a dash of smoked malt to make our Schwarzbier slightly more complex.</p>",
+    "abv": 5.1,
+    "ibu": 24,
+    "style": "Black Lager"
+  },
+  {
+    "name": "Rocky Mountain IPA",
+    "description": "<p>An I.P.A. by definition is liberally hopped and higher in alcohol. We made Rocky Mountain I.P.A. by dry hopping for an intense citrus aroma and adding a generous helping of malt to create a backbone stable enough to support the characteristic bitterness of the beer.</p>",
+    "abv": 6.2,
+    "ibu": 81,
+    "style": "IPA"
+  },
+  {
+    "name": "Maibock",
+    "description": "<p>A smooth malty flavor attained from the richness of Munich malts that finishes with gentle warming sweetness. Toffee notes and understated hop bitterness round out the bock experience. Brewed in the Fall, Aged in the Winter, Celebrated in the Spring. Prost!</p>",
+    "abv": 6.4,
+    "ibu": 34,
+    "style": "Maibock"
+  },
+  {
+    "name": "Big Shot",
+    "description": "<p>A wonderful winter warmer, this brown ale will leave you wishing the season would never end. The perfect finish to a long day of playing in the Colorado sunshine, or maybe just wishing you had been.</p>",
+    "abv": 6.0,
+    "ibu": 38,
+    "style": "Winter Warmer"
+  },
+  {
+    "name": "Wheat Wine",
+    "description": "<p>Brother of the beloved Barley Wine Ale, our brew boasts a preposterous 50% malted wheat for a pillowy mouthfeel. Ravenous yeast yields a warming brew ripe with caramel-like flavors and fruity esters.</p>",
+    "abv": 9.3,
+    "ibu": 28,
+    "style": "Wine Ale"
+  },
+  {
+    "name": "Double Chocolate Stout",
+    "description": "<p>The most decadent creation ever to be crafted in FCB's brewhouse. Deep roasty flavors, rich chocolate nose,coffee undertones and impeccable balance are the result of imperializing an already flawless brew.</p>",
+    "abv": 8.1,
+    "ibu": 48,
+    "style": "Stout"
+  }
+]

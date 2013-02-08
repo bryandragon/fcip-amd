@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="/css/screen.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="container">
+    <header class="header row" role="header">
+      <div class="span6">
+        <h2 class="title"><%= title %></h2>
+      </div>
+      <div class="span6 right">
+      <% if (user) { -%>
+        <div class="user-info">
+          Signed in as <%= user.username %> &bull; <a href="/logout">Sign out</a>
+        </div>
+      <% } -%>
+      </div>
+    </header>
+
+    <article class="main-content row" role="content">
+    <% if (user) { -%>
+      <div id="app" class="span12"></div>
+    <% } else { -%>
+      <div class="span6 offset3">
+        <div class="hero-unit">
+          <div class="splash">
+            <h3>Hops. Local. Free.</h3>
+            <p>Discover amazing local beers.</p>
+            <a href="/auth/github" class="btn btn-primary">Sign in with Github</a>
+          </div>
+        </div>
+      </div>
+    <% } -%>
+    </article>
+
+    <footer class="row" role="footer">
+      <div class="span6">Prepared by <a href="http://twitter.com/bryandragon">@bryandragon</a></div>
+      <div class="span6 right">FCIP Meetup 2013</div>
+    </footer>
+  </div>
+
+  <% if (user) { -%>
+    <% if (NODE_ENV == 'production') { -%>
+    <script src="/js/app.min.js"></script>
+    <% } else { -%>
+    <script src="/js/libs/require/require.js" data-main="/js/main.js"></script>
+    <% } -%>
+  <% } -%>
+</body>
+</html>
