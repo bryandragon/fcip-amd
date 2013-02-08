@@ -67,8 +67,8 @@ NODE_ENV=production node server/app.js
 ### CommonJS
 * [CommonJS](http://www.commonjs.org/)
 * [Modules Spec](http://wiki.commonjs.org/wiki/Modules/1.1)
-* [AMD Spec](http://wiki.commonjs.org/wiki/Modules/AsynchronousDefinition)
-* [AMD Loader Plugin Spec](https://github.com/amdjs/amdjs-api/wiki/AMD)
+* [AMD Spec](https://github.com/amdjs/amdjs-api/wiki/AMD)
+* [AMD Loader Plugin Spec](http://wiki.commonjs.org/wiki/Modules/LoaderPlugin)
 
 ### Other AMD Loaders
 * [almond.js](https://github.com/jrburke/almond)
