@@ -61,8 +61,8 @@ NODE_ENV=production node server/app.js
 * [Underscore.js](http://underscorejs.org/)
 
 ### Require.js
-* [http://requirejs.org/](require.js)
-* [https://github.com/jrburke/r.js](r.js)
+* [require.js](http://requirejs.org/)
+* [r.js](https://github.com/jrburke/r.js)
 
 ### CommonJS
 * [CommonJS](http://www.commonjs.org/)
